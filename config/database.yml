@@ -11,3 +11,10 @@ test:
   username: root
   password:
   host: localhost
+  
+production:
+    adapter: mysql
+    database: andyurl
+    username: andyurl
+    password: sh0rty
+    host: localhost
