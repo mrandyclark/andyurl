@@ -14,7 +14,9 @@ test:
   
 production:
     adapter: mysql
+    socket: /var/run/mysqld/mysqld.sock
     database: andyurl
     username: andyurl
     password: sh0rty
     host: localhost
+    
