@@ -66,6 +66,7 @@ class LinksController < ApplicationController
         end
       end
     else
+      flash[:notice] = "This link already existied."
       redirect_to(@link)
     end
     
