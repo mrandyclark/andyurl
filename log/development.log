@@ -5166,3 +5166,47 @@ c2h7AAY6CkB1c2VkewA=--609ba9c23ffce0420624f111794aac42254ecc4f
 Rendering template within layouts/links
 Rendering links/new
 Completed in 0.00985 (101 reqs/sec) | Rendering: 0.00262 (26%) | DB: 0.00202 (20%) | 200 OK [http://tableapp.dev/]
+
+
+Processing LinksController#new (for 127.0.0.1 at 2008-11-12 09:50:27) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlY2U5NTE3NzZlNzc1NjQ4NDYz
+NjI0YTU0Zjg1NDU1NWI=--11e322c124d61bc22d42d9cca4a4327b8a3ed16f
+  Parameters: {"action"=>"new", "controller"=>"links"}
+  [4;36;1mLink Columns (0.002188)[0m   [0;1mSHOW FIELDS FROM `links`[0m
+Rendering template within layouts/links
+Rendering links/new
+Completed in 0.01235 (80 reqs/sec) | Rendering: 0.00436 (35%) | DB: 0.00219 (17%) | 200 OK [http://tableapp.dev/]
+
+
+Processing LinksController#new (for 127.0.0.1 at 2008-11-12 09:50:47) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlY2U5NTE3NzZlNzc1NjQ4NDYzNjI0YTU0Zjg1NDU1
+NWIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--609ba9c23ffce0420624f111794aac42254ecc4f
+  Parameters: {"action"=>"new", "controller"=>"links"}
+  [4;35;1mLink Columns (0.002225)[0m   [0mSHOW FIELDS FROM `links`[0m
+Rendering template within layouts/links
+Rendering links/new
+Completed in 0.01079 (92 reqs/sec) | Rendering: 0.00317 (29%) | DB: 0.00223 (20%) | 200 OK [http://tableapp.dev/]
+
+
+Processing LinksController#new (for 127.0.0.1 at 2008-11-12 09:51:18) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlY2U5NTE3NzZlNzc1NjQ4NDYz
+NjI0YTU0Zjg1NDU1NWI=--11e322c124d61bc22d42d9cca4a4327b8a3ed16f
+  Parameters: {"action"=>"new", "controller"=>"links"}
+  [4;36;1mLink Columns (0.001993)[0m   [0;1mSHOW FIELDS FROM `links`[0m
+Rendering template within layouts/links
+Rendering links/new
+Completed in 0.00936 (106 reqs/sec) | Rendering: 0.00227 (24%) | DB: 0.00199 (21%) | 200 OK [http://tableapp.dev/]
+
+
+Processing LinksController#new (for 127.0.0.1 at 2008-11-12 09:51:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlY2U5NTE3NzZlNzc1NjQ4NDYzNjI0YTU0Zjg1NDU1
+NWIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--609ba9c23ffce0420624f111794aac42254ecc4f
+  Parameters: {"action"=>"new", "controller"=>"links"}
+  [4;35;1mLink Columns (0.001939)[0m   [0mSHOW FIELDS FROM `links`[0m
+Rendering template within layouts/links
+Rendering links/new
+Completed in 0.00998 (100 reqs/sec) | Rendering: 0.00235 (23%) | DB: 0.00194 (19%) | 200 OK [http://tableapp.dev/]
