@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>andyURL</title>
+  <%= stylesheet_link_tag 'scaffold', 'app' %>
+</head>
+<body>
+
+
+<div id="container">
+	<div id="container_top"></div>
+	<div id="container_mid">
+		<h1>andyURL.com</h1>
+		<p style="color: green"><%= flash[:notice] %></p>
+		<%= yield  %>
+	</div>
+	<div id="container_bottom"></div>
+</div>
+
+</body>
+</html>

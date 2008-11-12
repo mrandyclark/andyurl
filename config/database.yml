@@ -1,0 +1,13 @@
+development:
+  adapter: mysql
+  database: andyurl_dev
+  username: root
+  password:
+  host: localhost
+
+test:
+  adapter: mysql
+  database: andyurl_test
+  username: root
+  password:
+  host: localhost

@@ -1,0 +1,9 @@
+<% form_for(@link) do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.text_field :url, :class => "url"%>
+  </p>
+  <p>
+    <%= f.submit "AndyURL!", :class => "button"%>
+  </p>
+<% end %>

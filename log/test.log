@@ -1,0 +1,88 @@
+  [4;36;1mSQL (0.000160)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000156)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000174)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000154)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000441)[0m   [0;1mSELECT count(*) AS count_all FROM `links` [0m
+
+
+Processing LinksController#create (for 0.0.0.0 at 2008-11-11 20:18:50) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"links", "link"=>{}}
+  [4;35;1mLink Create (0.000264)[0m   [0mINSERT INTO `links` (`updated_at`, `url`, `created_at`) VALUES('2008-11-12 01:18:50', NULL, '2008-11-12 01:18:50')[0m
+Redirected to http://test.host/links/996332878
+Completed in 0.00566 (176 reqs/sec) | DB: 0.00773 (136%) | 302 Found [http://test.host/links?]
+  [4;36;1mSQL (0.000316)[0m   [0;1mSELECT count(*) AS count_all FROM `links` [0m
+  [4;35;1mSQL (0.000701)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000126)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000381)[0m   [0mSELECT count(*) AS count_all FROM `links` [0m
+  [4;36;1mLink Load (0.000642)[0m   [0;1mSELECT * FROM `links` WHERE (`links`.`id` = 953125641) [0m
+
+
+Processing LinksController#destroy (for 0.0.0.0 at 2008-11-11 20:18:50) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"links"}
+  [4;35;1mLink Load (0.000801)[0m   [0mSELECT * FROM `links` WHERE (`links`.`id` = 953125641) [0m
+  [4;36;1mLink Destroy (0.000186)[0m   [0;1m DELETE FROM `links`
+ WHERE `id` = 953125641
+[0m
+Redirected to http://test.host/links
+Completed in 0.00203 (491 reqs/sec) | DB: 0.00315 (155%) | 302 Found [http://test.host/links/953125641]
+  [4;35;1mSQL (0.000316)[0m   [0mSELECT count(*) AS count_all FROM `links` [0m
+  [4;36;1mSQL (0.000693)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000238)[0m   [0mBEGIN[0m
+  [4;36;1mLink Load (0.000784)[0m   [0;1mSELECT * FROM `links` WHERE (`links`.`id` = 953125641) [0m
+
+
+Processing LinksController#edit (for 0.0.0.0 at 2008-11-11 20:18:50) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"links"}
+  [4;35;1mLink Load (0.000614)[0m   [0mSELECT * FROM `links` WHERE (`links`.`id` = 953125641) [0m
+Rendering template within layouts/links
+Rendering links/edit
+Completed in 0.00452 (221 reqs/sec) | Rendering: 0.00346 (76%) | DB: 0.00264 (58%) | 200 OK [http://test.host/links/953125641/edit]
+  [4;36;1mSQL (0.000152)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000133)[0m   [0mBEGIN[0m
+
+
+Processing LinksController#index (for 0.0.0.0 at 2008-11-11 20:18:50) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"links"}
+  [4;36;1mLink Load (0.000622)[0m   [0;1mSELECT * FROM `links` [0m
+Rendering template within layouts/links
+Rendering links/index
+Completed in 0.00311 (322 reqs/sec) | Rendering: 0.00197 (63%) | DB: 0.00091 (29%) | 200 OK [http://test.host/links]
+  [4;35;1mSQL (0.000146)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mBEGIN[0m
+
+
+Processing LinksController#new (for 0.0.0.0 at 2008-11-11 20:18:50) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"links"}
+Rendering template within layouts/links
+Rendering links/new
+Completed in 0.00217 (461 reqs/sec) | Rendering: 0.00185 (85%) | DB: 0.00029 (13%) | 200 OK [http://test.host/links/new]
+  [4;35;1mSQL (0.000132)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mBEGIN[0m
+  [4;35;1mLink Load (0.000589)[0m   [0mSELECT * FROM `links` WHERE (`links`.`id` = 953125641) [0m
+
+
+Processing LinksController#show (for 0.0.0.0 at 2008-11-11 20:18:50) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"links"}
+  [4;36;1mLink Load (0.000556)[0m   [0;1mSELECT * FROM `links` WHERE (`links`.`id` = 953125641) [0m
+Rendering template within layouts/links
+Rendering links/show
+Completed in 0.00211 (474 reqs/sec) | Rendering: 0.00103 (48%) | DB: 0.00141 (66%) | 200 OK [http://test.host/links/953125641]
+  [4;35;1mSQL (0.000149)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mBEGIN[0m
+  [4;35;1mLink Load (0.000564)[0m   [0mSELECT * FROM `links` WHERE (`links`.`id` = 953125641) [0m
+
+
+Processing LinksController#update (for 0.0.0.0 at 2008-11-11 20:18:50) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"953125641", "controller"=>"links", "link"=>{}}
+  [4;36;1mLink Load (0.000552)[0m   [0;1mSELECT * FROM `links` WHERE (`links`.`id` = 953125641) [0m
+Redirected to http://test.host/links/953125641
+Completed in 0.00174 (575 reqs/sec) | DB: 0.00141 (80%) | 302 Found [http://test.host/links/953125641?]
+  [4;35;1mSQL (0.000144)[0m   [0mROLLBACK[0m

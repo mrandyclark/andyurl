@@ -1,0 +1,35 @@
+body {
+	background-image:url('/images/bg.png');
+	margin: 50px 0px;
+}
+
+
+
+.url {
+	font-size: 24px;
+}
+
+#container {
+	width: 600px;
+	margin: 0px auto;
+}
+
+#container_top {
+	background-image:url('/images/top.png');
+	width: 600px;
+	height: 21px;
+	margin: 0px;
+}
+
+#container_bottom {
+	background-image:url('/images/bottom.png');
+	width: 600px;
+	height: 21px;
+	margin: 0px;}
+
+#container_mid {
+	background-color: #fff;
+	margin: 0px;
+	text-align: center;
+	padding: 5px;
+}
